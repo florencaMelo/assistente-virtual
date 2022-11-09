@@ -98,10 +98,4 @@ def entrar_audio():
             engine.runAndWait()
         return frase
 
-
-def pesquisar():
-    engine.say("o que voê deseja que eu pesquise?")
-    engine.runAndWait()
-
-
 inicio()
