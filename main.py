@@ -50,7 +50,7 @@ def main():
   cadastro.engine.say("o que você deseja?")
   cadastro.engine.runAndWait()
 
-  if "horas" "horário" in cadastro.entrar_audio():
+  if "horas" or "horário" in cadastro.entrar_audio():
     horas()
   #if cadastro.entrar_audio() == horas
 
